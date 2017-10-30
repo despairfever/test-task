@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns="http://kefirsf.org/kefirbb/schema"
+               xsi:schemaLocation="http://kefirsf.org/kefirbb/schema http://kefirsf.org/kefirbb/schema/kefirbb-1.0.xsd">
+    <code name="bold">
+        <pattern ignoreCase="true">[b]<var inherit="true"/>[/b]</pattern>
+        <template>&lt;b&gt;<var/>&lt;/b&gt;</template>
+    </code>
+</configuration>
